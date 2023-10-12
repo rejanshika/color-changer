@@ -180,6 +180,28 @@
     }
 }
 
+@media (max-width: 350px) {
+    .container{
+        font-size: 30px;
+    }
+    .color {
+        /* Update styles for smaller screens */
+        width: 25%; /* Set the width to 100% to make it a row layout */; 
+        margin-left:40%; /* Remove the left margin */
+        gap: 10px;
+        height: 1100px; /* Set the height to 150px to make it a row layout */
+        flex-direction: column; /* Set the flex direction to row */
+        justify-content: center; /* Center align the items */
+        margin-top: 10%;
+    }
+
+    .peragraph p{
+        font-size: 40px;
+        width: 50%;
+        font-weight: bolder;
+    }
+}
+
 
 
 
