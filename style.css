@@ -107,4 +107,81 @@
     100% { transform: scale(1); }
 }
 
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+    .container {
+        /* Update styles for smaller screens */
+        font-size: 30px;
+    }
+
+    .color {
+        /* Update styles for smaller screens */
+        width: 100%; /* Set the width to 100% to make it a row layout */
+        margin-left:0%; /* Remove the left margin */
+        gap: 10px;
+        height: 600px; /* Set the height to 150px to make it a row layout */
+        flex-direction: column; /* Set the flex direction to row */
+        justify-content: center; /* Center align the items */
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .color div {
+        /* Update styles for smaller screens */
+        margin-top: 0; /* Remove the top margin */
+        width: 20%; /* Set a fixed width for each color box */
+        height: 100%; /* Make the height 100% to occupy the entire height of the container */
+    }
+
+    .peragraph p{
+        font-size: 30px;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 900px) {
+   
+   
+    .color {
+        /* Update styles for smaller screens */
+        width: 25%; /* Set the width to 100% to make it a row layout */; 
+        margin-left:40%; /* Remove the left margin */
+        gap: 10px;
+        height: 999px; /* Set the height to 150px to make it a row layout */
+        flex-direction: column; /* Set the flex direction to row */
+        justify-content: center; /* Center align the items */
+        margin-top: 10%;
+    }
+
+    .peragraph p{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container{
+        font-size: 50px;
+    }
+    .color {
+        /* Update styles for smaller screens */
+        width: 25%; /* Set the width to 100% to make it a row layout */; 
+        margin-left:40%; /* Remove the left margin */
+        gap: 10px;
+        height: 1100px; /* Set the height to 150px to make it a row layout */
+        flex-direction: column; /* Set the flex direction to row */
+        justify-content: center; /* Center align the items */
+        margin-top: 10%;
+    }
+
+    .peragraph p{
+        font-size: 40px;
+        width: 50%;
+        font-weight: bolder;
+    }
+}
+
+
+
+
+
 
